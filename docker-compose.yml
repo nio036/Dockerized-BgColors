@@ -1,0 +1,21 @@
+version: "3.3"
+
+services:
+  node-green:
+    image: gregkoul/webapp-flask-bgcolor:1.0
+    environment:
+     - APP_COLOR=green
+    ports:
+      - "8000:8000"
+  node-blue:
+    image: gregkoul/webapp-flask-bgcolor:1.0
+    environment:
+     - APP_COLOR=blue
+    ports:
+      - "8001:8000"
+  node-red:
+    image: gregkoul/webapp-flask-bgcolor:1.0
+    environment:
+     - APP_COLOR=red
+    ports:
+      - "8002:8000"
