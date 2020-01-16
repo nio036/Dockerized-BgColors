@@ -1,3 +1,7 @@
+this directory is copied from https://github.com/gregkoul/Dockerized-webapp-flask-bgcolor
+
+
+
 # Dockerized-webapp-flask-bgcolor
 This is a simple flask webapp that displays a colored background and a greeting message. 
 The color can be specified in two different ways:
